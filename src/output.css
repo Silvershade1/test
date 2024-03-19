@@ -1578,6 +1578,10 @@ body {
     margin-right: 1.5rem;
   }
 
+  .max-sm\:ml-0 {
+    margin-left: 0px;
+  }
+
   .max-sm\:grid {
     display: grid;
   }
@@ -1596,12 +1600,28 @@ body {
 }
 
 @media not all and (min-width: 450px) {
+  .max-xd\:-ml-6 {
+    margin-left: -1.5rem;
+  }
+
   .max-xd\:hidden {
     display: none;
   }
 
+  .max-xd\:w-28 {
+    width: 7rem;
+  }
+
+  .max-xd\:w-52 {
+    width: 13rem;
+  }
+
   .max-xd\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .max-xd\:flex-wrap {
+    flex-wrap: wrap;
   }
 
   .max-xd\:justify-items-center {
