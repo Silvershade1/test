@@ -34,16 +34,8 @@ ButtonElem.addEventListener("click", () => {
 
 function Authenticate(user, passwordValue) {
   if (user.password === passwordValue) {
-    Swal.fire({
-      title: "successful",
-      text: "You are logged in",
-      icon: "success",
-    }).then ((result) => {
-      if (result.isConfirmed){
-        window.location.href = "/public/homeoage.html";
-        localStorage.setItem("islogin", "true");
-      }
-    }) 
+    window.location.href = "../index.html";
+    localStorage.setItem("islogin", "true");
   } else {
     pElem.textContent = "Incorrect password";
     pElem.style.display = "block";
