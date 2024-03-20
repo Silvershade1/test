@@ -1064,10 +1064,6 @@ video {
   width: 100%;
 }
 
-.w-\[px\] {
-  width: px;
-}
-
 .min-w-\[350px\] {
   min-width: 350px;
 }
@@ -1651,16 +1647,8 @@ body {
     margin-left: 0px;
   }
 
-  .max-sm\:ml-12 {
-    margin-left: 3rem;
-  }
-
   .max-sm\:mr-8 {
     margin-right: 2rem;
-  }
-
-  .max-sm\:flex {
-    display: flex;
   }
 
   .max-sm\:grid {
@@ -1671,60 +1659,20 @@ body {
     width: 20rem;
   }
 
-  .max-sm\:w-\[\] {
-    width: ;
-  }
-
-  .max-sm\:w-\[450px\] {
-    width: 450px;
-  }
-
-  .max-sm\:w-\[3\] {
-    width: 3;
-  }
-
-  .max-sm\:w-\[370px\] {
-    width: 370px;
-  }
-
-  .max-sm\:w-\[3400px\] {
-    width: 3400px;
-  }
-
-  .max-sm\:w-\[340px\] {
-    width: 340px;
-  }
-
-  .max-sm\:w-\[40px\] {
-    width: 40px;
+  .max-sm\:w-\[310px\] {
+    width: 310px;
   }
 
   .max-sm\:w-\[400px\] {
     width: 400px;
   }
 
-  .max-sm\:w-\[310px\] {
-    width: 310px;
-  }
-
   .max-sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .max-sm\:flex-col {
-    flex-direction: column;
-  }
-
-  .max-sm\:flex-wrap {
-    flex-wrap: wrap;
-  }
-
   .max-sm\:justify-center {
     justify-content: center;
-  }
-
-  .max-sm\:gap-12 {
-    gap: 3rem;
   }
 }
 
@@ -1745,12 +1693,12 @@ body {
     width: 13rem;
   }
 
-  .max-xd\:w-\[350px\] {
-    width: 350px;
-  }
-
   .max-xd\:w-72 {
     width: 18rem;
+  }
+
+  .max-xd\:w-\[350px\] {
+    width: 350px;
   }
 
   .max-xd\:grid-cols-1 {
